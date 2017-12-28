@@ -6,7 +6,8 @@
 d = {
     95:'Adam',
     85:'Lisa',
-    59:'Bart'
+    81:'Bart',
+    86:'Lrisa'
 }
 a = input("input score:")
 print(d.get(int(a)))   # a 默认应该是str型，故用int函数转换一下
