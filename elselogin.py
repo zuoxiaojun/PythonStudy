@@ -1,5 +1,8 @@
 # Author ='zuoxi'
 #date =2018/1/3
+
+# Author ='zuoxi'
+#date =2018/1/3
 #登录验证
 # for i in range(100):
 #     if i< 50 or i > 70:
@@ -8,7 +11,6 @@
 _username = "zuoxiaojun"
 _passwd  = "1234567"
 
-passed_authentication = False #假 ，初始判断登录不成功 flag
 
 for i in range (3):
     username = input("username :")
@@ -19,5 +21,5 @@ for i in range (3):
         break
     else:
         print("Invalid username or passwad!")
-if not passed_authentication: #没登录成功
+else:   #  for else
     print("三次都错了，还试个毛线")
